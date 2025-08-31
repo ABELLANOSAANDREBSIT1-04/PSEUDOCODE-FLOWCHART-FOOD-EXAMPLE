@@ -1,0 +1,22 @@
+START
+  DISPLAY "Choose in menu"
+  INPUT menu
+
+  DISPLAY "Select order" 
+  INPUT food
+
+  DISPLAY "Do you want drinks? (Yes/No)"
+  INPUT drink
+
+  IF drink = "Yes" THEN
+   DISPLAY "Order a drink"
+   INPUT drink
+  ELSE
+   DISPLAY "Declined drinks"
+  ENDIF
+
+   DISPLAY "Pay your bills"
+   DISPLAY "Wait for your order"
+   DISPLAY "Your food is served"
+   DISPLAY "END"
+END
